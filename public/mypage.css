@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+a, h1, h2, ul h2, h3, h6{
+    text-decoration: none;
+    font-family: Dosis, sans-serif;
+    font-size: 18PX;
+    color: brown;
+}
+h1, h6{
+    text-align: center;
+    font-size: 28px;
+    color: rgba(22, 22, 255, 0.975);    
+}
+h6{
+    font-size: 24px;
+    padding: 10px 0 20px;
+}
+header{                 
+    background-color: rgb(10, 79, 10);
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    gap: 10.5em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: black;        
+    align-items: center;  
+    gap: 2em;     
+}
+nav a, nav a:hover{
+    color: white;
+}
+main.banner{
+    background-image: url("https://i.ibb.co/rw13YQQ/student.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    padding: 100px 0;
+    
+}
+main div.mainpage{
+    background-color: white;
+    padding: 50px 20px;
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.8rem;
+}
+p{
+    font-size: 18px;
+    padding-top: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;    
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    line-height: 30px;
+}
+@media(max-width:820px){
+    header{                 
+        background-color: rgb(10, 79, 10);
+        width: 100%;
+        display: flex;
+        justify-content: space-around; 
+        gap: 7.5em;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        color: black;        
+        align-items: center;  
+        gap: 1em;     
+    }
+    nav a, nav a:hover{
+        color: white;
+    }
+    main.banner{
+        background-image: url("https://i.ibb.co/rw13YQQ/student.jpg");
+        background-size: cover;
+        margin: 0 auto;
+        padding: 100px 0;
+        
+    }
+    main div.mainpage{
+        background-color: white;
+        padding: 50px 20px;
+        text-align: justify;
+        width: 80%;
+        margin: 0 auto;
+        line-height: 1.8rem;
+    }
+    p.special{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;  
+        font-size: 12px;  
+    }
+    section{
+        display: block;
+        justify-content: space-around;
+        padding: 20px 0;
+        line-height: 30px;
+    }   
+}
